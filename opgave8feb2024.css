@@ -51,3 +51,12 @@ header nav {
     align-items: center;
     margin-right: 50px;
 }
+
+
+footer a, footer p {
+    color: #779882;
+}
+
+footer h3 {
+    color: #F3F4EF;
+}
