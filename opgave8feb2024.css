@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    grid-column: 1/4;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+.hamburger {
+    grid-column: 3/4;
+    display: none;
+    justify-content: end;
+    align-items: center;
+}
+
+.hamburger img {
+    height: 1.2em;
+}
+
+.logo {
+    grid-column: 1/2;
+    height: 50px;
+}
+
+.global-nav {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    align-items: center;
+    margin-right: 50px;
+}
