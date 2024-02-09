@@ -3,6 +3,21 @@
     box-sizing: border-box;
 }
 
+/*HEADER*/
+header {
+grid-row: 1/2;
+background-color: #779882;
+display: flex;
+align-items: center;
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+padding-top: 20px;
+padding-bottom: 15px;
+z-index: 2;
+}
+
 header nav {
     grid-column: 1/4;
     padding-left: 50px;
